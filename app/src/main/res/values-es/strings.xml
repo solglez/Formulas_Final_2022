@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Aprende Química</string>
+    <string name="learm_chemistry">APRENDE QUÍMICA</string>
+    <string name="teclea_la_f_mula">Teclea la fórmula</string>
+    <string name="hintFormula" />
+    <string name="comprobar">Comprobar</string>
+    <string name="desea_continuar">¿Desea continuar?</string>
+    <string name="s">Sí</string>
+    <string name="no">No</string>
+    <string name="introduzcaRespuesta">Introduzca su respuesta.</string>
+    <string name="insertar_compuesto">Insertar Compuesto</string>
+    <string name="contacto">Contacto</string>
+    <string name="contactarConNosotros">IES de Teis\n¿Contactar con nosotros?</string>
+    <string name="mas2errores">Tiene más de dos errores</string>
+    <string name="consulteweb">Consulte la web para aprender más.</string>
+    <string name="nuevo_compuesto">Nuevo compuesto</string>
+    <string name="nombre">Nombre</string>
+    <string name="formula">Formula</string>
+    <string name="correcto">Correcto!!!</string>
+    <string name="incorrecto">Incorrecto...</string>
+    <string name="continuar">Continuar</string>
+    <string name="eligeCompuesto">Elige Compuesto</string>
+    <string name="faltaContenido">Ambos campos deben tener contenido.</string>
+</resources>

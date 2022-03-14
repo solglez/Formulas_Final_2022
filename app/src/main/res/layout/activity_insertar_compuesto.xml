@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_borde">
+    <LinearLayout
+        android:id="@+id/llPregunta"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_fondo"
+        android:layout_margin="@dimen/marcoExterior"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nuevo_compuesto"
+            android:textAlignment="center"
+            android:textSize="@dimen/tamanoTextoEstandar"
+            android:textColor="@color/color_texto"/>
+        <EditText
+            android:id="@+id/etCrearNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/nombre"
+            android:textSize="@dimen/tamanoTextoEstandar"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/etCrearFormula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/formula"
+            android:textSize="@dimen/tamanoTextoEstandar"
+            android:inputType="textCapCharacters"/>
+        <Button
+            android:id="@+id/btnInsertar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/insertar_compuesto"
+            android:onClick="onClickAct3"/>
+
+    </LinearLayout>
+</LinearLayout>

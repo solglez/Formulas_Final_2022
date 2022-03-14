@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_borde">
+    <LinearLayout
+        android:id="@+id/llInicio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_fondo"
+        android:layout_margin="@dimen/marcoExterior"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/learm_chemistry"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/tamanoTexto"
+            android:textColor="@color/color_texto"/>
+        <ImageButton
+            android:id="@+id/btnLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flask1"
+            android:onClick="onClickBtn"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llCompuestos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_fondo"
+        android:layout_margin="@dimen/marcoExterior"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eligeCompuesto"
+            android:textAlignment="center"
+            android:textSize="@dimen/tamanoTextoEstandar"
+            android:layout_margin="@dimen/tamanoTextoEstandar"
+            android:textColor="@color/color_texto"/>
+        <ListView
+            android:id="@+id/lvCompuestos"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:divider="@color/white"
+            android:dividerHeight="2px"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

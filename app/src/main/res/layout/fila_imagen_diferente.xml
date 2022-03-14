@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+    <!--Este xml es un Layout Resource File que usaremos para la inserción de
+        filas en el ListView con imágenes distintas.
+        Anulamos el src de la imagen por ser variable.-->
+    <ImageView
+        android:id="@+id/imgCoompuesto"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="6dp"
+        android:src="@drawable/flask1">
+    </ImageView>
+    <TextView
+        android:id="@+id/tvCompuesto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:text="Textoytexto">
+    </TextView>
+</LinearLayout>
